@@ -23,10 +23,8 @@ spring:
       minimum-idle: 0
   redis:
     #host: 172.20.72.137
-    host: 172.20.72.137
+    host: 172.0.0.1
     port: 6379
-    database: 0
-    password: macula@^cloud$
     
   rabbitmq:
     host: 127.0.0.1
